@@ -135,3 +135,7 @@ src/svg/*.tsx
 
 # Zeit
 .now
+
+
+# Documentation
+docs/_site/

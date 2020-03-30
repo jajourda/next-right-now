@@ -1,0 +1,17 @@
+.tip{
+    @extend code;
+    @extend .bg-purple-000;
+    @extend .text-grey-lt-000;
+    @extend .fs-4;
+    @extend .p-4;
+    font-family: $body-font-family;
+    strong{
+        @extend .fw-700;
+        display: block;
+        text-transform: uppercase;
+        &:before{
+            content:"TIP: ";
+        }
+    }
+    
+}

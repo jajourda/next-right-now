@@ -5,41 +5,90 @@ nav_order: 20
 has_children: true
 ---
 
-# Introduction
 
-> Below are explanations about how NRN works and why we did things the way we did
->
-> **Tip**: If you're interested about how to use this project for your own need, see our ["How to use" Guide](./README_HOW_TO_USE.md) instead!
+# Getting Started
 
-## Introduction videos
 
-### Part 1 - Overview of Next Right Now (15 minutes)
-[![Part 1 - Overview of Next Right Now](https://img.youtube.com/vi/kltkFwnFL-k/maxresdefault.jpg)](http://youtu.be/kltkFwnFL-k?hd=1)
+## Setup Next-Right-Now
 
-> Let's talk about why we built RNR in the first place, how it's meant to be used, whom it is for.
->
-> This video features Zeit deployments, i18n, GraphCMS, Locize in-context editor, Sentry monitoring, Amplitude analytics, CI/CD Github Actions
+### Get Your Environment and Equipment Ready 
+- Next-right-now is a repo that requires Node.js to be installed on your system.
+- You will need a text editor to write code
+- You will need a Terminal application to invoke some commands.
+<div class="tip">
+<strong>Environment</strong>
+i am a tip
+</div>
 
-### Part 2 - Developer Experience with Next Right Now (15 minutes)
-[![Part 2 - Developer Experience with Next Right Now](https://img.youtube.com/vi/fGlgIEeUqFg/maxresdefault.jpg)](http://youtu.be/fGlgIEeUqFg?hd=1)
+<hr/>
 
-> Let's talk about the developer experience (DX) provided by NRN and how it helps being more efficient.
->
-> This video features GraphQL auto-completion and local schema update, deployment workflow, CI/CD Github Actions explanations, interactive E2E testing, GraphsCMS field creation
+### Clone the Next-Right-Now Repo to your Local Machine
 
-### Guides
-- [How to run NRN in debug mode using WebStorm debug configuration](http://youtu.be/3vbkiRAT4e8?hd=1) (2 minutes)
+
+
+
+
+## Inline code
+
+Code can be rendered inline by wrapping it in single back ticks.
+
+<div class="code-example" markdown="1">
+Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</div>
+```markdown
+Lorem ipsum dolor sit amet, `<inline code snippet>` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```
 
 ---
 
-## Showcases - Live demo
+## Syntax highlighted code blocks
 
-You can see 2 almost identical demo at:
-- [https://nrn-customer1.now.sh](https://nrn-customer1.now.sh)
-- [https://nrn-customer2.now.sh](https://nrn-customer2.now.sh)
+Use Jekyll's built-in syntax highlighting with Rouge for code blocks by using three backticks, followed by the language name:
 
-**Both share the same source code and configuration**, but the database content is different (hosted on GraphCMS).
+<div class="code-example" markdown="1">
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+</div>
+{% highlight markdown %}
+```js
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+{% endhighlight %}
 
-> **Tip**: You can get metadata at [/api/status](https://nrn-customer1.now.sh/api/status)
->
-> **Tip**: All `/api/*` are serverless functions, running under AWS Lambda
+---
+
+## Code blocks with rendered examples
+
+To demonstrate front end code, sometimes it's useful to show a rendered example of that code. After including the styles from your project that you'll need to show the rendering, you can use a `<div>` with the `code-example` class, followed by the code block syntax. If you want to render your output with Markdown instead of HTML, use the `markdown="1"` attribute to tell Jekyll that the code you are rendering will be in Markdown format... This is about to get meta...
+
+<div class="code-example" markdown="1">
+
+<div class="code-example" markdown="1">
+
+[Link button](http://example.com/){: .btn }
+
+</div>
+```markdown
+[Link button](http://example.com/){: .btn }
+```
+
+</div>
+{% highlight markdown %}
+<div class="code-example" markdown="1">
+
+[Link button](http://example.com/){: .btn }
+
+</div>
+```markdown
+[Link button](http://example.com/){: .btn }
+```
+{% endhighlight %}

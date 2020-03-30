@@ -14,7 +14,10 @@ nav_order: 10
 # Introduction to NRN
 
 <div class="code-example" markdown="1">
-Next Right Now (NRN) is meant to be used as a **boilerplate** for quick getting started with a **production-grade** project featuring the **Next.js framework**, hosted on **Zeit** platform.
+<p class="fs-6 fw-300">
+Next Right Now (NRN) is meant to be used as a <strong>boilerplate</strong> for quick getting started with a <strong>production-grade</strong> project featuring the <strong>Next.js framework</strong>, hosted on <strong>Zeit platform</strong>.
+</p>
+
 
 NRN is maintained with several purposes in mind:
 - To be **flexible** and allow for extensive **customisation**.
@@ -24,7 +27,11 @@ NRN is maintained with several purposes in mind:
 - To be used as an **educational** resource, meant to be used as a **learning/teaching** resource.
 - Provide various boilerplate [variants](https://unlyed.github.io/next-right-now/concepts/variants), to get started with the variant that matches the closest your needs.
 
+<div class="tip">
+<strong>Share your Opinions</strong>
 Don't hesitate to share your opinion about your ["getting started"](https://github.com/UnlyEd/next-right-now/issues/14) experience and your [feedback about opt-in 3rd parties](https://github.com/UnlyEd/next-right-now/issues/13)!
+</div>
+
 </div>
 
 ---

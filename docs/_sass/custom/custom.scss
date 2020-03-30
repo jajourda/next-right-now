@@ -13,5 +13,13 @@
             content:"TIP: ";
         }
     }
+    a{
+        @extend .text-grey-lt-000;
+        @extend .fw-300;
+        text-decoration: underline;
+    }
+    code{
+        @extend .text-grey-dk-250;
+    }
     
 }

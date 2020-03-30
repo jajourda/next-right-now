@@ -18,12 +18,14 @@ has_toc: false
 - You will need a Terminal application to invoke some commands.
 <div class="tip">
 <strong>Environment</strong>
-i am a tip
+This project is optimized for Jetbrains Webstorm text-editor. But you can use any text-editor you prefer. (Visual Studio Code is a great, free option.)
 </div>
 
 <hr/>
 
 ### Clone the Next-Right-Now Repo to your Local Machine
+
+
 
 
 

@@ -6,7 +6,6 @@ has_children: true
 has_toc: false
 ---
 
-<<<<<<< HEAD
 
 # Getting Started
 
@@ -94,7 +93,6 @@ To demonstrate front end code, sometimes it's useful to show a rendered example 
 [Link button](http://example.com/){: .btn }
 ```
 {% endhighlight %}
-=======
 # Getting started
 
 This section contains everything about how to get started with NRN. Here is the order we recommend:
@@ -123,4 +121,3 @@ This section contains everything about how to get started with NRN. Here is the 
     [Watch video tutorials >](./video-tutorials){: .btn .btn-purple }
     </span>
 </div>
->>>>>>> docs-massive-rewrite

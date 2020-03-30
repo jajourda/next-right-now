@@ -23,3 +23,18 @@
     }
     
 }
+
+.step{
+    &:after{
+        content:'';
+        display: block;
+        height: 1px;
+        @extend .bg-grey-lt-300;
+        padding: 0px;
+        margin: 2rem 0px;
+        border-width: 0px;
+        border-style: initial;
+        border-color: initial;
+        border-image: initial;
+    }
+}

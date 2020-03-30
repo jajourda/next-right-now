@@ -28,7 +28,7 @@ This is the <a href="/getting-started/pick-variant#v1-ssr---default-variant">def
                 <p>This project is optimized for Jetbrains Webstorm text-editor. But you can use any text-editor you prefer. (Visual Studio Code is a great, free option.)</p>
             </div>
         </div>
-        <hr>
+    
    </li>
     <li class="step">
         <h3>Clone this Variant to your Local Machine</h3>
@@ -50,7 +50,7 @@ This is the <a href="/getting-started/pick-variant#v1-ssr---default-variant">def
             {% include installation-guide-tips-html.md %}
             </div>
         </div>
-        <hr>
+    
    </li>
    <li class="step">
     <h3>Create an account for all required 3rd party vendors</h3>
@@ -58,23 +58,23 @@ This is the <a href="/getting-started/pick-variant#v1-ssr---default-variant">def
     Create an account for all required 3rd party vendors above, and fill-in missing environment variables in your <code>.env.build</code> file
     <ol>
         <li class="substep">
-            <h3>Setup GraphCMS Account</h3>
+            <h4>Setup GraphCMS Account</h4>
             <div class="content"></div>
         </li>
         <li class="substep">
-            <h3>Setup Locize Account</h3>
+            <h4>Setup Locize Account</h4>
             <div class="content"></div>
         </li>
         <li class="substep">
-            <h3>Setup Sentry Account</h3>
+            <h4>Setup Sentry Account</h4>
             <div class="content"></div>
         </li>
         <li class="substep">
-            <h3>Setup Amplify Account</h3>
+            <h4>Setup Amplify Account</h4>
             <div class="content"></div>
         </li>
         <li class="substep">
-            <h3>Setup Zeit Account</h3>
+            <h4>Setup Zeit Account</h4>
             <div class="content"></div>
         </li>
     </ol>
@@ -91,5 +91,11 @@ This is the <a href="/getting-started/pick-variant#v1-ssr---default-variant">def
                             </div>
                         </div>
         </div>
+   </li>
+   <li>
+   <h3>Make Your First Change to the Codebase</h3>
+   <div class="content">
+    <p>Create a change in the codebase and watch NRN in action from E2E!</p>
+   </div>
    </li>
 </ol>

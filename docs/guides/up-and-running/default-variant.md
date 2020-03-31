@@ -59,7 +59,56 @@ This is the <a href="/getting-started/pick-variant#v1-ssr---default-variant">def
     <ol>
         <li class="substep">
             <h4>Setup GraphCMS Account</h4>
-            <div class="content"></div>
+            <div class="highlight">
+                <code class="p-2">
+                    <span class="label label-yellow">CMS</span>
+                    <span class="label label-red"> (Limited) Freemium</span>
+                    <span class="label label-green">GraphQL Approach</span>
+                </code>
+            </div>
+            <div class="content">
+                <ol>
+                    <li>
+                    Sign-up for graphCMS
+                    </li>
+                    <li>
+                    Create a new project within the graphCMS backend gui.
+                    <figure>
+                        <img src="/assets/images/graphcmscreateproject.jpg" alt="graph cms create project">
+                    </figure>
+                    </li>
+                    <li>
+                    Pick the region closest to you. Give your project a name and a description.
+                    <figure>
+                        <img src="/assets/images/create-new-project-graphcms.jpg" alt="graph cms create project">
+                    </figure> 
+                    </li>
+                    <li>
+                    Pick a pricing plan. (I did the free one).
+                    <figure>
+                    <img src="/assets/images/pick-a-pricing-plan.jpg" alt="">
+                    </figure>
+                    </li>
+                    <li>
+                    Configure your GraphCMS project.
+                        <figure><img src="/assets/images/configure-your-graphcms-project.jpg" alt=""></figure>
+                    </li>
+                    <li>
+                    Navigate to your project's settings. 
+                    <figure><img src="/assets/images/navigate-to-settings.jpg" alt=""></figure>
+                    Click on the API Access Settings.
+                    <figure><img src="/assets/images/go-to-api-access.jpg" alt=""></figure>
+                    </li>
+                    <li>
+                    Create an authentication token for your Next-righ-now app to access
+                        <figure><img src="/assets/images/create-authentication-token-for-api-access.jpg" alt=""></figure>
+                    </li>
+                    <li>
+                        Copy your existing token to the clipboard to paste to the .env.build file.
+                        <figure><img src="/assets/images/copy-your-existing-token-to-clipboard-to-paste-to-env-build.jpg" alt=""></figure>
+                    </li>
+                </ol>
+            </div>
         </li>
         <li class="substep">
             <h4>Setup Locize Account</h4>
